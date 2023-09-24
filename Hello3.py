@@ -873,7 +873,7 @@ def page_result():
     st.header("제품 특징")
     st.subheader(product_text)
     st.subheader("듣기만 해도 침이 고이네요ㅎㅎ 당장 먹으러 가요!")
-    st.subheader(f"네 좋아요. 아래 음식들을 좋아하신다면, {product_name}도 더욱 좋아하실 거에요")
+    st.subheader(f"아래 음식들을 좋아하신다면, {product_name}도 더욱 좋아하실 거에요")
     
     st.header(f"{review_product_list.iloc[0]['title']}")
     st.image(f"{review_product_list.iloc[0]['image']}")
